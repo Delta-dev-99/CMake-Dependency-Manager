@@ -22,7 +22,7 @@ install(FILES cmake/ManageDependencies.cmake DESTINATION share/cmake/CMakeDepend
 # export the package
 include(CMakePackageConfigHelpers)
 configure_package_config_file(
-    cmake/ManageDependenciesConfig.cmake.in
+    cmake/CMakeDependencyManagerConfig.cmake.in
     ${CMAKE_CURRENT_BINARY_DIR}/ManageDependenciesConfig.cmake
     INSTALL_DESTINATION share/cmake/CMakeDependencyManager
 )
